@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bungee'; /*não consegui botar as fontes adequadas. Meu codigo acabou ficando diferente,
+  então não entendi direito o porque não consegui usar as fontes e realizar algumas coisas como ficaram no projeto*/
+}
+header{
+  padding: 16px 0;
+  background-color: rgb(2, 2, 47);
+  color: bisque;
+}
+.gato img{
+  height: 220px;
+}
+body{
+  font-family: 'Roboto', 'sans-serif';
+}
+header nav li{
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+  
+}
+header h1,
+section h2{
+  font-weight: normal;
+}
+header nav li a{
+  color: bisque;
+  text-decoration: none;
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .container,
+section .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brands-list img{
+  height: 64px;
+}
+.brands-list li{
+  display: inline;
+}
+section .container{
+  align-items: flex-start;
+}
+section{
+  padding: 24px 0;
+  color:rgb(2, 2, 47) ;
+}
+section h2{
+  margin-bottom: 16px;
+}
+section p{
+  margin-bottom: 8px;
+}
+.store-front{
+  margin-right: 32px;
+} 
+header ,
+section h2{
+font-family:'Bungee', cursive;
+}
+.social-links img{
+  height:34px;
+}
+#contact .container{
+  display:block;
+  
+}
+.contact-method{
+  display: flex;
+  justify-content: space-between ;
+}
+form input,
+form textarea,
+form button{
+  display: block;
+  width: 380px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+form textarea{
+  resize: none;
+}
+.social-links img{
+  height: 44px;
+}
+#contact .container{
+  display:block ;
+}
+.contact-method{
+  display:flex
+}
+form imput,
+form textarea,
+form button{
+  display: block;
+  width: 320px;
+}
+.social-links li{
+  display: inline;
+}
+form button{
+  cursor: pointer;
+  color:beige;
+  background-color:rgb(2, 2, 47)
+}
+form button:hover{
+  background-color: rgb(44, 101, 206);
+}
+input:focus, textarea:focus{
+  outline-color: rgb(10, 36, 187);
+}
+footer{
+  background-color: rgb(13, 3, 58);
+  color: beige;
+  padding: 16px 0;
+}
